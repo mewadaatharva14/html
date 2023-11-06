@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>
+            Tables
+        </title>
+    </head>
+    <body>
+        <!-- <Table height = "300" width = "200" border="2" bordercolor="black">
+            <caption>Tables Fruit</caption> -->
+            <!-- <tr>
+                <td rowspan="2"><img src = "data:image/jpeg;base64,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" alt = "Camel"/></td>
+                <td colspan="4" style="text-align: center">Camel comparision</td>
+            </tr>
+            <tr >
+                <td>Humps</td>
+                <td>Region</td>
+                <td>Splits</td>
+                <td>wool</td>
+            </tr>
+            <tr>
+                <td style="text-align: center">Camels</td>
+                <td>2
+                </td>
+                <td>Asia</td>
+                <td>Yes</td>
+                <td>Yes</td>
+
+            </tr>
+            <tr>
+                <td style="text-align: center">Lalmaas</td>
+                <td>1</td>
+                <td>Andes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr> -->
+            <!-- <tr>
+                <th >Fruit</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>$ 0.25</td>
+                
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>$ 0.50</td>
+
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>$ 1.00</td>
+            </tr>
+            <tr>
+                <td>Pineapple</td>
+                <td>$ 2.00</td>
+            </tr>
+            <tr>
+                <th>Total</th>
+                <th>$ 3.75</th>
+            </tr> -->
+            <!-- <tr>
+                <td bgcolor="Red" colspan="2"></td>
+                <td bgcolor="blue" rowspan="2"></td>
+            </tr>
+            <tr>
+                <td bgcolor="green" rowspan="2"></td>
+                <td bgcolor="grey"></td>
+            </tr>
+            <tr>
+                <td bgcolor="yellow" colspan="2"></td>
+            </tr>
+        </Table> -->
+        <!-- <table border = "1" bgcolor = "Blue" height = "200" width = "200">
+                <td>
+            <table border="1" bgcolor = "pink" height = "150" width = "150" align="center">
+                <td>
+                    <table border="1" bgcolor = "red" height = "100" width = "100" align="center">
+                        <td>
+                            <table border="1" bgcolor = "yellow" height = "50" width = "50" align="center">
+                                <td>
+                                    <table border="1" bgcolor = "green" height = "25" width = "25" align="center">
+                                        <td>
+                                            
+                                    </table>  
+                            </table>   
+                    </table>
+            </table>
+        </table> -->
+        <Table  bgcolor ="lightblue" border>
+            <caption>Nested Table</caption>
+            <tr>
+                <td>outer table1 row1 col1</td>
+                <td>
+                    outer table1 row1 col2
+                    <table border  bgcolor = "pink">
+                        <tr>
+                            <td>Inner table2 row1 col1
+                            <table  bgcolor = "lightgreen" border = "solid">
+                                <tr>
+                                    <td>Inner table3 row1 col1</td>
+                                    <td>Inner table3 row1 col2
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Inner table3 row2 col1</td>
+                                    <td>Inner table3 row2 col2</td>
+                                </tr>
+                                <tr>
+                                    <td>Inner table3 row3 col1
+                                    </td>
+                                    <td>Inner table3 row3 col2</td>
+                                </tr>
+                            </table>
+                            </td>
+                            <td>Inner table2 row1 col2</td>
+                        </tr>
+                        <tr>
+                            <td>Inner table2 row2 col1</td>
+                            <td>Inner table2 row2 col2</td>
+
+                        </tr>
+                        <tr>
+                            <td>Inner table2 row3 col1</td>
+                            <td>Inner table2 row3 col2</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Outer table row2 col1</td>
+                <td>outer table row2 col2</td>
+            </tr>
+        </Table>
+    </body>
+</html>
