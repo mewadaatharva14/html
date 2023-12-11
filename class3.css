@@ -1,0 +1,7 @@
+.odd{
+    background-color:aqua;
+}
+.even{
+    background-image:url("https://imgs.search.brave.com/c9zuQLQCGW6_cXleOxizAzclKnYnU3zI9F0LjJti0kY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdC5k/ZXBvc2l0cGhvdG9z/LmNvbS8xMTA4NzYw/LzI1MDcvaS82MDAv/ZGVwb3NpdHBob3Rv/c18yNTA3NzkxNy1z/dG9jay1waG90by1p/cm9uLW1hbi1tYXJr/LXZpLmpwZw");
+    background-repeat:no-repeat
+}

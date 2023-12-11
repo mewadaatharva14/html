@@ -1,0 +1,16 @@
+/* .label1:hover{background-color:red;}
+.label2:hover{color:pink;}
+.label3:active{color:red;}
+.botton1:hover{color:blue;} */
+p::first-letter{
+    font-size:25px;
+    color:red;
+    font-style:italic;
+    font-variant:normal;
+}
+h1::selection
+{
+    background-color: black;
+    color :rgb(231, 11, 11)
+}
+
